@@ -30,7 +30,7 @@ function TodoForm(props) {
         {props.edit ? (
              <>
                 <input
-                    placeholder='Update your item'
+                    placeholder='Update'
                     value={input}
                     onChange={handleChange}
                     name='text'
